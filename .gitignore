@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Other common files to ignore
+*.log
+*.sqlite3
