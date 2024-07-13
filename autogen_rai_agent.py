@@ -268,11 +268,11 @@ def main():
     # Start the conversation
     conversation_result = user_proxy.initiate_chat(
         manager,
+        message="What methods were used to provide insights into model predictions?",
         # message="To what extent is the decision-making process of the AI system explainable and interpretable",
-        # message="What data was used to build the AI system",
-        message="""Describe the steps taken to identify and mitigate potential biases in your AI system.
-                    What fairness metrics were used?
-                    How were different subgroups evaluated?""",
+        # message="""Describe the steps taken to identify and mitigate potential biases in your AI system.
+        #             What fairness metrics were used?
+        #             How were different subgroups evaluated?""",
         max_turns=3
     )
 
