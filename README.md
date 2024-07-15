@@ -2,7 +2,7 @@
 
 This project is an AI-powered code analysis system that uses Retrieval-Augmented Generation (RAG) to provide insights into AI systems based on their source code.
 
-## Project Structure
+## Project Code Structure
 
 ```
 ai-code-analyzer/
@@ -17,7 +17,7 @@ ai-code-analyzer/
 └── README.md
 ```
 
-## File Descriptions
+## Code Descriptions
 
 ### main.py
 The entry point of the application. It sets up the RAG system, initializes the agents, and manages the conversation flow.
