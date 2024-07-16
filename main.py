@@ -97,8 +97,11 @@ def main(code_path: str = "code/**/*.py", recursive: bool = True, question: Opti
 
 if __name__ == "__main__":
     # Sample questions
-    qs = "To what extent is the decision-making process of the AI system explainable and interpretable"
+    # qs = "To what extent is the decision-making process of the AI system explainable and interpretable"
+    # qs = "What data quality metrics and privacy considerations were used for the development of this project?"
+    # qs = "What are the known limitations and constraints of the model that was chosen?"
     # qs = """Describe the steps taken to identify and mitigate potential biases in your AI system.
+    qs = "Provide metrics and analysis from initial model training and validation"
     #          What fairness metrics were used?
     #          How were different subgroups evaluated?"""
     # qs = "What methods were used to provide insights into model predictions?"
