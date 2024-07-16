@@ -96,10 +96,11 @@ def main(code_path: str = "code/**/*.py", recursive: bool = True, question: Opti
 
 
 if __name__ == "__main__":
-    qs = "To what extent is the decision-making process of the AI system explainable and interpretable",
+    # Sample questions
+    qs = "To what extent is the decision-making process of the AI system explainable and interpretable"
     # qs = """Describe the steps taken to identify and mitigate potential biases in your AI system.
     #          What fairness metrics were used?
-    #          How were different subgroups evaluated?""",
+    #          How were different subgroups evaluated?"""
     # qs = "What methods were used to provide insights into model predictions?"
 
     chat_result = main(question=qs)
