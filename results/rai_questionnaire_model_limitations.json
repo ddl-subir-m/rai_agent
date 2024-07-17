@@ -46,22 +46,6 @@
       "role": "assistant"
     },
     {
-      "content": "",
-      "role": "assistant"
-    },
-    {
-      "content": "",
-      "role": "assistant"
-    },
-    {
-      "content": "",
-      "role": "assistant"
-    },
-    {
-      "content": "",
-      "role": "assistant"
-    },
-    {
       "content": "No function call detected in the message.",
       "name": "FunctionCaller",
       "role": "user"
