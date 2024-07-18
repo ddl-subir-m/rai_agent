@@ -82,11 +82,8 @@ Stores environment variables, such as API keys. (Note: This file should not be c
 
 4. Run the analysis:
    ```
-   python main.py [--code_path PATH] [--recursive BOOL]
+   python main.py
    ```
-   - `--code_path`: Glob pattern for code files to analyze (default: "code/**/*.py")
-   - `--recursive`: Whether to search for files recursively (default: True)
-
 5. The analysis results will be saved in `conversation_result.json`.
 
 ## Customization
